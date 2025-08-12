@@ -1,0 +1,31 @@
+
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues.
+    
+❯ Building...
+✔ Building...
+Initial chunk files | Names         |  Raw size
+main.js             | main          |  48.25 kB | 
+chunk-PZ5AY32C.js   | -             | 234 bytes | 
+styles.css          | styles        |  96 bytes | 
+polyfills.js        | polyfills     |  95 bytes | 
+
+                    | Initial total |  48.67 kB
+
+Lazy chunk files    | Names         |  Raw size
+chunk-R4VGCVLM.js   | login         |   9.05 kB | 
+chunk-MXIKMX4V.js   | admin         |   1.72 kB | 
+chunk-XKRNSEZN.js   | home          |   1.70 kB | 
+
+Application bundle generation complete. [0.939 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+11:53:08 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+  ➜  Local:   http://localhost:58021/
+  ➜  Network: http://172.17.0.4:58021/
+  ➜  press h + enter to show help
